@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 380" fill="none">
+  <defs>
+    <linearGradient id="androidBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b171c"/>
+      <stop offset="100%" stop-color="#12252a"/>
+    </linearGradient>
+    <linearGradient id="androidGreen" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3ddc84"/>
+      <stop offset="100%" stop-color="#10b981"/>
+    </linearGradient>
+    <linearGradient id="phoneScreen" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#141c24"/>
+      <stop offset="100%" stop-color="#0d141a"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="600" height="380" rx="16" fill="url(#androidBg)"/>
+  <rect x="1" y="1" width="598" height="378" rx="15" stroke="#1e3a3e" stroke-width="1.5"/>
+
+  <!-- Window Header -->
+  <rect x="0" y="0" width="600" height="42" rx="16" fill="#0c1d22"/>
+  <circle cx="28" cy="21" r="5" fill="#ef4444" opacity="0.8"/>
+  <circle cx="44" cy="21" r="5" fill="#f59e0b" opacity="0.8"/>
+  <circle cx="60" cy="21" r="5" fill="#10b981" opacity="0.8"/>
+  <text x="540" y="25" fill="#3ddc84" font-family="'JetBrains Mono', monospace" font-size="11" text-anchor="end">Android SDK • Kotlin • MVVM</text>
+
+  <!-- Left: Android Architecture Showcase -->
+  <g transform="translate(35, 65)">
+    <text x="0" y="20" fill="#f0fdf4" font-family="'Plus Jakarta Sans', sans-serif" font-size="16" font-weight="700">Native Android Architecture Suite</text>
+    <text x="0" y="42" fill="#86efac" font-family="'JetBrains Mono', monospace" font-size="11">MODEL-VIEW-VIEWMODEL (MVVM) PATTERN</text>
+
+    <!-- Architecture Layers -->
+    <rect x="0" y="60" width="280" height="48" rx="8" fill="#132e30" stroke="#225c58"/>
+    <text x="14" y="82" fill="#3ddc84" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700">UI Layer / Jetpack Compose</text>
+    <text x="14" y="97" fill="#cbd5e1" font-family="'Plus Jakarta Sans', sans-serif" font-size="10">State observation with StateFlow &amp; LiveData</text>
+
+    <rect x="0" y="120" width="280" height="48" rx="8" fill="#132e30" stroke="#225c58"/>
+    <text x="14" y="142" fill="#38bdf8" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700">ViewModel &amp; Domain</text>
+    <text x="14" y="157" fill="#cbd5e1" font-family="'Plus Jakarta Sans', sans-serif" font-size="10">Lifecycle handling &amp; Coroutines scope</text>
+
+    <rect x="0" y="180" width="280" height="48" rx="8" fill="#132e30" stroke="#225c58"/>
+    <text x="14" y="202" fill="#c084fc" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700">Data / Firebase &amp; Room</text>
+    <text x="14" y="217" fill="#cbd5e1" font-family="'Plus Jakarta Sans', sans-serif" font-size="10">Offline-first caching &amp; cloud synchronization</text>
+
+    <rect x="0" y="240" width="130" height="26" rx="6" fill="#1e403d"/>
+    <text x="65" y="257" fill="#86efac" font-family="'JetBrains Mono', monospace" font-size="10" text-anchor="middle">Material Design 3</text>
+
+    <rect x="140" y="240" width="140" height="26" rx="6" fill="#1e403d"/>
+    <text x="210" y="257" fill="#86efac" font-family="'JetBrains Mono', monospace" font-size="10" text-anchor="middle">Android Studio Canary</text>
+  </g>
+
+  <!-- Right: Realistic Android Phone Mockup -->
+  <g transform="translate(370, 50)">
+    <!-- Phone Body -->
+    <rect width="180" height="300" rx="26" fill="#080e12" stroke="#2c5157" stroke-width="3"/>
+    <!-- Phone Screen -->
+    <rect x="8" y="10" width="164" height="280" rx="20" fill="url(#phoneScreen)"/>
+    <!-- Camera Notch -->
+    <circle cx="90" cy="22" r="5" fill="#000000"/>
+
+    <!-- App Header -->
+    <rect x="8" y="32" width="164" height="36" fill="#18363c"/>
+    <text x="22" y="55" fill="#ffffff" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="700">Mobile Client</text>
+    <circle cx="152" cy="50" r="8" fill="#3ddc84" opacity="0.3"/>
+    <circle cx="152" cy="50" r="4" fill="#3ddc84"/>
+
+    <!-- App Content Cards -->
+    <rect x="16" y="76" width="148" height="50" rx="8" fill="#1c2c34"/>
+    <circle cx="32" cy="101" r="10" fill="#3ddc84" opacity="0.2"/>
+    <text x="32" y="105" fill="#3ddc84" font-family="'JetBrains Mono', monospace" font-size="10" text-anchor="middle">✓</text>
+    <text x="50" y="96" fill="#ffffff" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="600">Active Task Sync</text>
+    <text x="50" y="112" fill="#94a3b8" font-family="'Plus Jakarta Sans', sans-serif" font-size="8">Firebase Realtime listener</text>
+
+    <rect x="16" y="134" width="148" height="50" rx="8" fill="#1c2c34"/>
+    <circle cx="32" cy="159" r="10" fill="#38bdf8" opacity="0.2"/>
+    <text x="32" y="163" fill="#38bdf8" font-family="'JetBrains Mono', monospace" font-size="9" text-anchor="middle">⚡</text>
+    <text x="50" y="154" fill="#ffffff" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="600">Offline SQLite Cache</text>
+    <text x="50" y="170" fill="#94a3b8" font-family="'Plus Jakarta Sans', sans-serif" font-size="8">Zero latency local storage</text>
+
+    <rect x="16" y="192" width="148" height="70" rx="8" fill="#1c2c34"/>
+    <text x="24" y="210" fill="#cbd5e1" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" font-weight="600">Kotlin Coroutine Workers</text>
+    <rect x="24" y="220" width="132" height="6" rx="3" fill="#0d141a"/>
+    <rect x="24" y="220" width="94" height="6" rx="3" fill="url(#androidGreen)"/>
+    <text x="24" y="244" fill="#86efac" font-family="'JetBrains Mono', monospace" font-size="8">Background Job #41 Active</text>
+
+    <!-- Home indicator -->
+    <rect x="65" y="280" width="50" height="3" rx="1.5" fill="#64748b"/>
+  </g>
+</svg>

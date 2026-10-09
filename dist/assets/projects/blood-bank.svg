@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 380" fill="none">
+  <defs>
+    <linearGradient id="bloodBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#140f17"/>
+      <stop offset="100%" stop-color="#211018"/>
+    </linearGradient>
+    <linearGradient id="redAccent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f43f5e"/>
+      <stop offset="100%" stop-color="#e11d48"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="600" height="380" rx="16" fill="url(#bloodBg)"/>
+  <rect x="1" y="1" width="598" height="378" rx="15" stroke="#371a25" stroke-width="1.5"/>
+
+  <!-- Window Header -->
+  <rect x="0" y="0" width="600" height="42" rx="16" fill="#1b0e14"/>
+  <circle cx="28" cy="21" r="5" fill="#ef4444" opacity="0.8"/>
+  <circle cx="44" cy="21" r="5" fill="#f59e0b" opacity="0.8"/>
+  <circle cx="60" cy="21" r="5" fill="#10b981" opacity="0.8"/>
+  <text x="540" y="25" fill="#fb7185" font-family="'JetBrains Mono', monospace" font-size="11" text-anchor="end">React • Real-time Blood Inventory</text>
+
+  <!-- Title & Status -->
+  <g transform="translate(30, 60)">
+    <text x="0" y="22" fill="#fff1f2" font-family="'Plus Jakarta Sans', sans-serif" font-size="17" font-weight="700">Virtual Blood Bank Coordination Hub</text>
+    <rect x="360" y="4" width="180" height="26" rx="13" fill="#881337" opacity="0.5"/>
+    <circle cx="374" cy="17" r="4" fill="#f43f5e"/>
+    <text x="385" y="21" fill="#fecdd3" font-family="'JetBrains Mono', monospace" font-size="10">Emergency System Online</text>
+  </g>
+
+  <!-- Blood Inventory Grid -->
+  <g transform="translate(30, 105)">
+    <!-- O+ -->
+    <rect x="0" y="0" width="120" height="90" rx="10" fill="#24131b" stroke="#4c1d29"/>
+    <text x="60" y="38" fill="#f43f5e" font-family="'JetBrains Mono', monospace" font-size="22" font-weight="800" text-anchor="middle">O+</text>
+    <text x="60" y="62" fill="#fda4af" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" text-anchor="middle">18 Units Available</text>
+    <text x="60" y="78" fill="#10b981" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" text-anchor="middle">● Optimal</text>
+
+    <!-- A+ -->
+    <rect x="140" y="0" width="120" height="90" rx="10" fill="#24131b" stroke="#4c1d29"/>
+    <text x="200" y="38" fill="#f43f5e" font-family="'JetBrains Mono', monospace" font-size="22" font-weight="800" text-anchor="middle">A+</text>
+    <text x="200" y="62" fill="#fda4af" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" text-anchor="middle">24 Units Available</text>
+    <text x="200" y="78" fill="#10b981" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" text-anchor="middle">● Optimal</text>
+
+    <!-- B+ -->
+    <rect x="280" y="0" width="120" height="90" rx="10" fill="#24131b" stroke="#4c1d29"/>
+    <text x="340" y="38" fill="#f43f5e" font-family="'JetBrains Mono', monospace" font-size="22" font-weight="800" text-anchor="middle">B+</text>
+    <text x="340" y="62" fill="#fda4af" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" text-anchor="middle">14 Units Available</text>
+    <text x="340" y="78" fill="#10b981" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" text-anchor="middle">● Optimal</text>
+
+    <!-- AB- (Critical Alert) -->
+    <rect x="420" y="0" width="120" height="90" rx="10" fill="#38101a" stroke="#e11d48"/>
+    <text x="480" y="38" fill="#fb7185" font-family="'JetBrains Mono', monospace" font-size="22" font-weight="800" text-anchor="middle">AB-</text>
+    <text x="480" y="62" fill="#fda4af" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" text-anchor="middle">2 Units Remaining</text>
+    <text x="480" y="78" fill="#f43f5e" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" text-anchor="middle">⚠️ Urgent Need</text>
+  </g>
+
+  <!-- Recent Emergency Broadcast -->
+  <g transform="translate(30, 220)">
+    <rect width="540" height="120" rx="10" fill="#1a0f16" stroke="#3b1522"/>
+    <text x="24" y="30" fill="#fecdd3" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="600">EMERGENCY DONOR COORDINATION QUEUE</text>
+    <rect x="24" y="45" width="492" height="55" rx="8" fill="#2a121e" stroke="#4e1b2b"/>
+    <circle cx="48" cy="72" r="14" fill="url(#redAccent)"/>
+    <text x="48" y="77" fill="#ffffff" font-family="'JetBrains Mono', monospace" font-size="12" font-weight="800" text-anchor="middle">!</text>
+    <text x="75" y="66" fill="#ffffff" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="600">Urgent Request #802 • Pune City District</text>
+    <text x="75" y="84" fill="#fda4af" font-family="'Plus Jakarta Sans', sans-serif" font-size="11">Patient needs 2 units of O- Negative • 3 registered nearby donors notified</text>
+  </g>
+</svg>

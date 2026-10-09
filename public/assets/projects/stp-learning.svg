@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 380" fill="none">
+  <defs>
+    <linearGradient id="bgGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b1329"/>
+      <stop offset="100%" stop-color="#141a38"/>
+    </linearGradient>
+    <linearGradient id="bluePurpleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#a855f7"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="600" height="380" rx="16" fill="url(#bgGrad2)"/>
+  <rect x="1" y="1" width="598" height="378" rx="15" stroke="#1e293b" stroke-width="1.5"/>
+
+  <!-- Window Header -->
+  <rect x="0" y="0" width="600" height="42" rx="16" fill="#0f172a"/>
+  <circle cx="28" cy="21" r="5" fill="#ef4444" opacity="0.8"/>
+  <circle cx="44" cy="21" r="5" fill="#f59e0b" opacity="0.8"/>
+  <circle cx="60" cy="21" r="5" fill="#10b981" opacity="0.8"/>
+  <text x="540" y="25" fill="#38bdf8" font-family="'JetBrains Mono', monospace" font-size="11" text-anchor="end">React • Cloud Firestore</text>
+
+  <!-- Navigation Breadcrumb -->
+  <g transform="translate(30, 60)">
+    <rect width="180" height="32" rx="6" fill="#1e293b"/>
+    <text x="14" y="21" fill="#f8fafc" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="600">Student Learning Platform</text>
+  </g>
+
+  <!-- Role Badges -->
+  <g transform="translate(230, 60)">
+    <rect width="90" height="32" rx="6" fill="#0284c7" opacity="0.2"/>
+    <rect width="90" height="32" rx="6" stroke="#38bdf8" stroke-width="1"/>
+    <text x="45" y="20" fill="#38bdf8" font-family="'JetBrains Mono', monospace" font-size="11" text-anchor="middle">Student</text>
+  </g>
+  <g transform="translate(330, 60)">
+    <rect width="90" height="32" rx="6" fill="#9333ea" opacity="0.2"/>
+    <rect width="90" height="32" rx="6" stroke="#c084fc" stroke-width="1"/>
+    <text x="45" y="20" fill="#c084fc" font-family="'JetBrains Mono', monospace" font-size="11" text-anchor="middle">Teacher</text>
+  </g>
+  <g transform="translate(430, 60)">
+    <rect width="90" height="32" rx="6" fill="#10b981" opacity="0.2"/>
+    <rect width="90" height="32" rx="6" stroke="#34d399" stroke-width="1"/>
+    <text x="45" y="20" fill="#34d399" font-family="'JetBrains Mono', monospace" font-size="11" text-anchor="middle">Admin/Staff</text>
+  </g>
+
+  <!-- Interactive Course & Schedule Cards Grid -->
+  <g transform="translate(30, 110)">
+    <!-- Course 1 -->
+    <rect width="255" height="110" rx="10" fill="#1e293b" stroke="#334155"/>
+    <text x="16" y="28" fill="#e2e8f0" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="700">Database Systems &amp; SQL</text>
+    <text x="16" y="48" fill="#94a3b8" font-family="'Plus Jakarta Sans', sans-serif" font-size="11">Prof. Sharma • Mon / Wed 10:00 AM</text>
+    <rect x="16" y="65" width="223" height="8" rx="4" fill="#0f172a"/>
+    <rect x="16" y="65" width="180" height="8" rx="4" fill="url(#bluePurpleGrad)"/>
+    <text x="16" y="92" fill="#38bdf8" font-family="'JetBrains Mono', monospace" font-size="10">82% Completed</text>
+    <rect x="175" y="80" width="64" height="20" rx="4" fill="#3b82f6"/>
+    <text x="207" y="94" fill="#ffffff" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="600" text-anchor="middle">Book Slot</text>
+  </g>
+
+  <g transform="translate(315, 110)">
+    <!-- Course 2 -->
+    <rect width="255" height="110" rx="10" fill="#1e293b" stroke="#334155"/>
+    <text x="16" y="28" fill="#e2e8f0" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="700">Object-Oriented Java 21</text>
+    <text x="16" y="48" fill="#94a3b8" font-family="'Plus Jakarta Sans', sans-serif" font-size="11">Prof. Deshmukh • Tue / Thu 2:00 PM</text>
+    <rect x="16" y="65" width="223" height="8" rx="4" fill="#0f172a"/>
+    <rect x="16" y="65" width="130" height="8" rx="4" fill="url(#bluePurpleGrad)"/>
+    <text x="16" y="92" fill="#38bdf8" font-family="'JetBrains Mono', monospace" font-size="10">58% Completed</text>
+    <rect x="175" y="80" width="64" height="20" rx="4" fill="#3b82f6"/>
+    <text x="207" y="94" fill="#ffffff" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="600" text-anchor="middle">Book Slot</text>
+  </g>
+
+  <!-- Live Sync Bar / Firestore Indicator -->
+  <g transform="translate(30, 240)">
+    <rect width="540" height="100" rx="10" fill="#111827" stroke="#1f2937"/>
+    <text x="20" y="28" fill="#f8fafc" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="600">REAL-TIME FIRESTORE REVISION QUEUE</text>
+    <circle cx="28" cy="55" r="5" fill="#10b981"/>
+    <text x="44" y="59" fill="#e2e8f0" font-family="'JetBrains Mono', monospace" font-size="11">Teacher approved schedule change for Group B</text>
+    <circle cx="28" cy="80" r="5" fill="#38bdf8"/>
+    <text x="44" y="84" fill="#e2e8f0" font-family="'JetBrains Mono', monospace" font-size="11">New assessment rubric released by Admin staff</text>
+  </g>
+</svg>

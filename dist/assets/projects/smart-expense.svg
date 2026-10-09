@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 380" fill="none">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0e101a"/>
+      <stop offset="100%" stop-color="#18192a"/>
+    </linearGradient>
+    <linearGradient id="chartGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#a855f7" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#a855f7" stop-opacity="0.05"/>
+    </linearGradient>
+    <linearGradient id="barGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#c084fc"/>
+      <stop offset="100%" stop-color="#6366f1"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="600" height="380" rx="16" fill="url(#bgGrad)"/>
+  <rect x="1" y="1" width="598" height="378" rx="15" stroke="#282a40" stroke-width="1.5"/>
+
+  <!-- Window Header -->
+  <rect x="0" y="0" width="600" height="42" rx="16" fill="#131522"/>
+  <circle cx="28" cy="21" r="5" fill="#ef4444" opacity="0.8"/>
+  <circle cx="44" cy="21" r="5" fill="#f59e0b" opacity="0.8"/>
+  <circle cx="60" cy="21" r="5" fill="#10b981" opacity="0.8"/>
+  <text x="540" y="25" fill="#a855f7" font-family="'JetBrains Mono', monospace" font-size="11" text-anchor="end">Java 21 • Spring Boot</text>
+
+  <!-- Financial Dashboard Grid -->
+  <!-- Left Panel: Summary Stats -->
+  <g transform="translate(30, 60)">
+    <rect width="160" height="85" rx="10" fill="#1b1d2e" stroke="#2e324c"/>
+    <text x="16" y="28" fill="#94a3b8" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="500">MONTHLY EXPENDITURE</text>
+    <text x="16" y="56" fill="#f8fafc" font-family="'JetBrains Mono', monospace" font-size="19" font-weight="700">₹42,850.00</text>
+    <text x="16" y="74" fill="#34d399" font-family="'Plus Jakarta Sans', sans-serif" font-size="10">✓ Within Budget Limits</text>
+  </g>
+
+  <g transform="translate(30, 160)">
+    <rect width="160" height="85" rx="10" fill="#1b1d2e" stroke="#2e324c"/>
+    <text x="16" y="28" fill="#94a3b8" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="500">DETERMINISTIC ENTRIES</text>
+    <text x="16" y="56" fill="#c084fc" font-family="'JetBrains Mono', monospace" font-size="19" font-weight="700">184 Logged</text>
+    <text x="16" y="74" fill="#94a3b8" font-family="'Plus Jakarta Sans', sans-serif" font-size="10">MySQL ACID Integrity</text>
+  </g>
+
+  <g transform="translate(30, 260)">
+    <rect width="160" height="90" rx="10" fill="#1b1d2e" stroke="#2e324c"/>
+    <text x="16" y="26" fill="#94a3b8" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="500">TOP CATEGORIES</text>
+    <text x="16" y="46" fill="#e2e8f0" font-family="'Plus Jakarta Sans', sans-serif" font-size="10">Rent &amp; Utilities • 42%</text>
+    <text x="16" y="64" fill="#e2e8f0" font-family="'Plus Jakarta Sans', sans-serif" font-size="10">Groceries • 24%</text>
+    <text x="16" y="80" fill="#e2e8f0" font-family="'Plus Jakarta Sans', sans-serif" font-size="10">Operations • 18%</text>
+  </g>
+
+  <!-- Right Panel: Expenditure Trend Chart -->
+  <g transform="translate(210, 60)">
+    <rect width="360" height="290" rx="10" fill="#141624" stroke="#282a40"/>
+    <text x="24" y="32" fill="#f8fafc" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="600">Deterministic Expense Breakdown &amp; Monthly Curve</text>
+
+    <!-- Chart Grid Lines -->
+    <line x1="24" y1="70" x2="336" y2="70" stroke="#23263b" stroke-dasharray="3 3"/>
+    <line x1="24" y1="120" x2="336" y2="120" stroke="#23263b" stroke-dasharray="3 3"/>
+    <line x1="24" y1="170" x2="336" y2="170" stroke="#23263b" stroke-dasharray="3 3"/>
+    <line x1="24" y1="220" x2="336" y2="220" stroke="#23263b" stroke-dasharray="3 3"/>
+
+    <!-- Chart Area -->
+    <path d="M30 190 Q90 140 140 160 T230 110 T330 80 L330 230 L30 230 Z" fill="url(#chartGrad)"/>
+    <path d="M30 190 Q90 140 140 160 T230 110 T330 80" stroke="#c084fc" stroke-width="3" fill="none"/>
+
+    <!-- Data Nodes -->
+    <circle cx="30" cy="190" r="4" fill="#a855f7"/>
+    <circle cx="140" cy="160" r="4" fill="#a855f7"/>
+    <circle cx="230" cy="110" r="4" fill="#38bdf8"/>
+    <circle cx="330" cy="80" r="5" fill="#f8fafc" stroke="#a855f7" stroke-width="2"/>
+
+    <!-- Bottom Bars for Comparison -->
+    <rect x="50" y="240" width="24" height="25" rx="3" fill="url(#barGrad)"/>
+    <rect x="110" y="240" width="24" height="32" rx="3" fill="url(#barGrad)"/>
+    <rect x="170" y="240" width="24" height="20" rx="3" fill="url(#barGrad)"/>
+    <rect x="230" y="240" width="24" height="38" rx="3" fill="url(#barGrad)"/>
+    <rect x="290" y="240" width="24" height="28" rx="3" fill="url(#barGrad)"/>
+
+    <text x="62" y="280" fill="#64748b" font-family="'JetBrains Mono', monospace" font-size="9" text-anchor="middle">JAN</text>
+    <text x="122" y="280" fill="#64748b" font-family="'JetBrains Mono', monospace" font-size="9" text-anchor="middle">FEB</text>
+    <text x="182" y="280" fill="#64748b" font-family="'JetBrains Mono', monospace" font-size="9" text-anchor="middle">MAR</text>
+    <text x="242" y="280" fill="#64748b" font-family="'JetBrains Mono', monospace" font-size="9" text-anchor="middle">APR</text>
+    <text x="302" y="280" fill="#64748b" font-family="'JetBrains Mono', monospace" font-size="9" text-anchor="middle">MAY</text>
+  </g>
+</svg>

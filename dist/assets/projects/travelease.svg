@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 380" fill="none">
+  <defs>
+    <linearGradient id="travelBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a1322"/>
+      <stop offset="100%" stop-color="#141e33"/>
+    </linearGradient>
+    <linearGradient id="blueGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#0284c7"/>
+    </linearGradient>
+    <linearGradient id="emeraldBtn" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10b981"/>
+      <stop offset="100%" stop-color="#059669"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="600" height="380" rx="16" fill="url(#travelBg)"/>
+  <rect x="1" y="1" width="598" height="378" rx="15" stroke="#1e293b" stroke-width="1.5"/>
+
+  <!-- Window Header -->
+  <rect x="0" y="0" width="600" height="42" rx="16" fill="#0c121e"/>
+  <circle cx="28" cy="21" r="5" fill="#ef4444" opacity="0.8"/>
+  <circle cx="44" cy="21" r="5" fill="#f59e0b" opacity="0.8"/>
+  <circle cx="60" cy="21" r="5" fill="#10b981" opacity="0.8"/>
+  <text x="540" y="25" fill="#38bdf8" font-family="'JetBrains Mono', monospace" font-size="11" text-anchor="end">Android • Java • Firebase</text>
+
+  <!-- Left Side: Android Smartphone Shell Mockup -->
+  <g transform="translate(45, 55)">
+    <!-- Device Frame -->
+    <rect width="160" height="300" rx="20" fill="#0f172a" stroke="#334155" stroke-width="2"/>
+    <!-- Screen -->
+    <rect x="8" y="10" width="144" height="280" rx="14" fill="#111827"/>
+    <!-- Top Camera Notch -->
+    <rect x="60" y="14" width="40" height="5" rx="2.5" fill="#1e293b"/>
+    <!-- Mobile App Header -->
+    <rect x="8" y="24" width="144" height="34" fill="#1e293b"/>
+    <text x="20" y="46" fill="#38bdf8" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="700">TravelEase</text>
+    <!-- App Card 1 -->
+    <g transform="translate(16, 68)">
+      <rect width="128" height="65" rx="8" fill="#1f2937" stroke="#374151"/>
+      <rect x="8" y="8" width="112" height="26" rx="4" fill="url(#blueGlow)" opacity="0.25"/>
+      <text x="14" y="25" fill="#38bdf8" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" font-weight="700">Goa Weekend Trip</text>
+      <text x="14" y="46" fill="#94a3b8" font-family="'Plus Jakarta Sans', sans-serif" font-size="8">3 Days • 2 Nights</text>
+      <text x="14" y="58" fill="#34d399" font-family="'JetBrains Mono', monospace" font-size="9" font-weight="700">₹4,999</text>
+    </g>
+    <!-- App Card 2 -->
+    <g transform="translate(16, 142)">
+      <rect width="128" height="65" rx="8" fill="#1f2937" stroke="#374151"/>
+      <rect x="8" y="8" width="112" height="26" rx="4" fill="url(#emeraldBtn)" opacity="0.2"/>
+      <text x="14" y="25" fill="#34d399" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" font-weight="700">Manali Adventure</text>
+      <text x="14" y="46" fill="#94a3b8" font-family="'Plus Jakarta Sans', sans-serif" font-size="8">5 Days • 4 Nights</text>
+      <text x="14" y="58" fill="#38bdf8" font-family="'JetBrains Mono', monospace" font-size="9" font-weight="700">₹9,499</text>
+    </g>
+    <!-- Booking Action Button -->
+    <rect x="16" y="220" width="128" height="28" rx="6" fill="url(#blueGlow)"/>
+    <text x="80" y="238" fill="#ffffff" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="700" text-anchor="middle">Book Tour Now</text>
+    <!-- Bottom Nav Indicator -->
+    <rect x="52" y="280" width="56" height="3" rx="1.5" fill="#475569"/>
+  </g>
+
+  <!-- Right Side: Architecture & Features Showcase -->
+  <g transform="translate(235, 60)">
+    <text x="0" y="22" fill="#f8fafc" font-family="'Plus Jakarta Sans', sans-serif" font-size="18" font-weight="800">TravelEase Android Architecture</text>
+    <text x="0" y="44" fill="#94a3b8" font-family="'Plus Jakarta Sans', sans-serif" font-size="12">Native Android travel exploration &amp; reservation application built with Java.</text>
+
+    <!-- Feature Grid -->
+    <g transform="translate(0, 65)">
+      <rect width="150" height="95" rx="10" fill="#162032" stroke="#24344d"/>
+      <text x="16" y="28" fill="#38bdf8" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700">JAVA NATIVE</text>
+      <text x="16" y="52" fill="#f1f5f9" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="600">Android SDK</text>
+      <text x="16" y="74" fill="#94a3b8" font-family="'Plus Jakarta Sans', sans-serif" font-size="10">Activities, Intents &amp; Lifecycle</text>
+    </g>
+
+    <g transform="translate(165, 65)">
+      <rect width="155" height="95" rx="10" fill="#162032" stroke="#24344d"/>
+      <text x="16" y="28" fill="#34d399" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700">CLOUD BACKEND</text>
+      <text x="16" y="52" fill="#f1f5f9" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="600">Firebase Firestore</text>
+      <text x="16" y="74" fill="#94a3b8" font-family="'Plus Jakarta Sans', sans-serif" font-size="10">Real-time sync &amp; Auth</text>
+    </g>
+
+    <!-- Bottom Highlights -->
+    <g transform="translate(0, 180)">
+      <rect width="320" height="90" rx="10" fill="#131b2c" stroke="#233047"/>
+      <text x="16" y="26" fill="#f8fafc" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="700">Key Capabilities</text>
+      <text x="16" y="48" fill="#cbd5e1" font-family="'Plus Jakarta Sans', sans-serif" font-size="11">• Real-time trip package search &amp; dynamic pricing</text>
+      <text x="16" y="68" fill="#cbd5e1" font-family="'Plus Jakarta Sans', sans-serif" font-size="11">• Secure user authentication and booking histories</text>
+    </g>
+  </g>
+</svg>
